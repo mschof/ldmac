@@ -71,7 +71,7 @@ end
 
 always @(*) begin
     case(state)
-    3'd1,3'd5: cntr_limit=15;
+    3'd1,3'd5: cntr_limit=13;
     3'd3,3'd7: cntr_limit=27;
     default  : cntr_limit=1;
     endcase

@@ -77,7 +77,7 @@ end
 always @(*) begin
     case(state)
     3'd1   : cntr_limit=39; // for enc
-    3'd2   : cntr_limit=19; // for perm
+    3'd2   : cntr_limit=25; // for perm
     default: cntr_limit=1;  // key
     endcase
 end
